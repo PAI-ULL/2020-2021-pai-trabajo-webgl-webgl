@@ -1,6 +1,7 @@
 ## PAI Lab assignment (lab, class presentation with slides) structure
 ### Authors
 Cristo García González
+Eduardo Expósito Barrera
 This directory is organised as follows:
 
       .
