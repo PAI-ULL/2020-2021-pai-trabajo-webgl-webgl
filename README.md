@@ -5,7 +5,7 @@ WebGL
  - Eduardo Expósito Barrera
 This directory is organised as follows:
 
-      .
-      ├── bib          # Assignment bibliography
-      ├── slides       # slides of your presentation
-      ├── src          # Source code
+      .\
+      ├── bib          # Assignment bibliography\
+      ├── slides       # slides of your presentation\
+      ├── src          # Source code\
