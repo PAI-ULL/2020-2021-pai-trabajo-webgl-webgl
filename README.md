@@ -1,11 +1,11 @@
-## PAI Lab assignment (lab, class presentation with slides) structure
+WebGL
+===
 ### Authors
-Cristo García González
-Eduardo Expósito Barrera
+ - Cristo García González
+ - Eduardo Expósito Barrera
 This directory is organised as follows:
 
       .
       ├── bib          # Assignment bibliography
       ├── slides       # slides of your presentation
-      ├── tests        # Source code for tests
       ├── src          # Source code
