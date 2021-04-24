@@ -136,7 +136,7 @@ function initBuffers(context) {
     1.0, 1.0, 1.0,
     -1.0, 1.0, 1.0,
 
-    // Cara tracera
+    // Cara posterior
     -1.0, -1.0, -1.0,
     -1.0, 1.0, -1.0,
     1.0, 1.0, -1.0,
@@ -285,8 +285,8 @@ function loadTexture(context, url) {
         SRC_FORMAT, SRC_TYPE, IMAGE);
 
     /**
-     * WebGL tiene diferente requisitos para las imágene con potencia de 2. Para
-     * ello, debemos comprobar si la imagen tiene potencia de 2 en ambas
+     * WebGL tiene diferente requisitos para las imágenes con potencia de 2.
+     * Para ello, debemos comprobar si la imagen tiene potencia de 2 en ambas
      * dimensiones.
      */
     if (isPowerOf2(IMAGE.WIDTH) && isPowerOf2(IMAGE.HEIGHT)) {
