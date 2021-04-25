@@ -19,6 +19,8 @@ GL.bindBuffer(GL.ARRAY_BUFFER, buffer);
 // GL.bufferData(GL.ARRAY_BUFFER, new Float32Array(vertexData), GL.DYNAMIC_DRAW);
 GL.bufferData(GL.ARRAY_BUFFER, new Float32Array(vertexData), GL.STATIC_DRAW);
 
+// VERTEX SHADER
+// #version 300
 const vertexShader = GL.createShader(GL.VERTEX_SHADER);
 GL.shaderSource(vertexShader, `
 attribute vec3 position;
@@ -28,6 +30,8 @@ void main() {
 `);
 GL.compileShader(vertexShader);
 
+// FRAGMENT SHADER
+// #version 300
 const fragmentShader = GL.createShader(GL.FRAGMENT_SHADER);
 GL.shaderSource(fragmentShader, `
 void main() {

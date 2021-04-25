@@ -113,7 +113,7 @@ function main() {
 }
 
 /**
- * Función que se encarga de inicializa los buffers que necesitaremos. En este
+ * Función que se encarga de inicializar los buffers que necesitaremos. En este
  * caso, un cubo tridimensional.
  * @param {Object} context Contiene el contexto sobre el que estamos trabajando
  * @return {Object} Retorna la información del buffer.
